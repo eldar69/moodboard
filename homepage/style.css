@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+body * + * {
+    margin-top: 1.5em;
+    }
+.container {
+        max-width: 800px;
+        margin: 0 auto;
+        }
+        
+       .row{
+           display: flex;
+           flex-wrap: wrap;
+           gap: 25px;
+           
+       }
+
+        .col-1 {flex:0 0 8.33%;}
+        .col-2 {flex:0 0 16.66%;}
+        .col-3 {flex:1 0 25%;}
+        .col-4 {flex:0 0 33.33%;}
+        .col-5 {flex:0 0 41.66%;}
+        .col-6 {flex:0 0 50%;}
+        .col-7 {flex:0 0 58.33%;}
+        .col-8 {flex:0 0 66.66%;}
+        .col-9 {flex:0 0 75%;}
+        .col-10 {flex:0 0 83.33%;}
+        .col-11 {flex:0 0 91.66%;}
+        .col-12 {flex:0 0 100%;}
+
+        html {
+            font-family: sans-serif;
+    
+        }
+
+        body {
+            font-family: "open sans", sans-serif;
+            font-size: 15px;
+            line-height: 1.42857;
+            color: black;
+            background-color: white;
+        }
+       
+        .header-cta {
+            display: flex;
+        }
+
+        .header-left {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .header-right {
+            margin-left: auto;
+            display: flex;
+            gap: 1em;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+      .text-center{
+            text-align: center;
+        }
+        .btn-primary{
+            background-color:#008086;
+            padding: 1em;
+            color: white;
+            border-radius: 1.5em;
+            border: none;
+            
+        }
+
+        .img-responsive {
+            object-fit: cover;
+            width: 100%;
+            height: 40vh;
+        }
+
+
+        .board-cover {
+            border: 1px solid #cccccc;
+            border-radius: 9px;
+             
+        }
+
+        .margin-bottom1 {
+            margin-top: 1.4em;
+        }
+
+        h4 {
+            color: black;
+            font-weight: lighter;
+
+        }
+
+        .footer-cta{
+            position: relative;
+             display: flex;
+            gap: 350px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: #222222;
+            background-image: url(http://d1eultvnfe7x1x.cloudfront.net/assets/crew-cta-bg-5b45946….jpg);
+            overflow: hidden;
+            border: 1px solid #cccccc;
+            border-radius: 9px;
+            
+            text-decoration: none;
+            color: white;
+            padding: 20px;  
+        }
+
+        
+
+       
